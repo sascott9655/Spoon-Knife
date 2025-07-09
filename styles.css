@@ -1,17 +1,48 @@
-* {
-  margin:0px;
-  padding:0px;
+.blue-container{
+  height: 900px;
+  width: 100%;
+  background-color: skyblue;
+  border: 3px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+.red-container{
+  height: 100px;
+  width: 90px;
+  text-align: center;
+  background-color: pink;
+  border: 5px solid darkred;
 }
 
-p {
-  display: block;
+/* Solution of css by Spoon-Knife */
+/* .container {
+  background: dodgerblue;
+  border: 4px solid midnightblue;
   width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  height: 300px;
 }
+
+.box {
+  background: palevioletred;
+  font-weight: bold;
+  text-align: center;
+  border: 6px solid maroon;
+  width: 80px;
+  height: 80px;
+}
+
+/* SOLUTION */
+
+/* disclaimer: duplicating the `.container` selector here isn't best practice.
+In your solution you probably put it right inside the existing `.container`,
+which _is_ the best practice. 
+
+We separated it out here to make it extra clear what has changed. */
+
+/* .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}  */
