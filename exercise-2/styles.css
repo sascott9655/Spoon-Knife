@@ -1,0 +1,22 @@
+.header{
+    height: 85px;
+    background-color:blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-links,.right-links{
+    display: flex;
+    padding: 15px;
+    gap: 12px;
+}
+.one,.two,.three,.four,.five,.six{
+    background-color: #fff;
+    padding: 4px 10px;
+}
+.logo{
+    background-color: #fff;
+    padding: 4px 32px;
+    color: red;
+    font-size: x-large;
+}
