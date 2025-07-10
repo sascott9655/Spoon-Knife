@@ -1,0 +1,38 @@
+body{
+    background-color: lightgray;
+}
+
+.header{
+    background-color: #fff;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+.links, .notifications{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    gap: 16px;
+}
+.logo{
+    font-weight: bolder;
+    font-size: xx-large;
+    color: blueviolet;
+}
+.one,.two,.three{
+    color: blueviolet;
+    font-weight: 300;
+}
+.button{
+    background-color: blueviolet;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+.icon{
+    background-color: blueviolet;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
