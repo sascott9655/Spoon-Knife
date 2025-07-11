@@ -1,0 +1,79 @@
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+  background-color: grey;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal{
+  background-color: white;
+  width: 70%;
+  height: 15%;
+  border-radius: 10px;
+  padding: 10px;
+}
+.header{
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+.exclamation{
+  height: 50px;
+  width: 50px;
+  background-color: lightblue;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: xx-large;
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.question{
+  margin: 0 auto;
+  padding-right: 200px;
+  font-weight: bold;
+  font-size: x-large;
+}
+.x{
+  height: 50px;
+  width: 50px;
+  background-color: lightgrey;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: xx-large;
+  color:lightslategray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lorem-ipsum{
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  padding-left: 50px;
+  padding-bottom: 10px;
+}
+.buttons{
+ display: flex;
+ justify-content: center;
+}
+button.continue{
+  background-color: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px grey;
+  padding: 4px 10px;
+}
+button.cancel{
+  background-color: white;
+  color: royalblue;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px grey;
+  padding: 4px 10px;
+}
